@@ -39,4 +39,4 @@ requestSingle.on('error', function(error) {
     console.log(error);
 });
 
-request.end();
+requestSingle.end();
